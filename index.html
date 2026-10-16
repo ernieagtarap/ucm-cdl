@@ -2395,7 +2395,7 @@ var GLOSSARY = [["above reproach", "A quality where one is not only innocent of 
   }
 
   /* ===================== ROUND TWO ===================== */
-  var ARTIFACT_URL='https://agtarapcreative.com/ucm/cdl/';
+  var ARTIFACT_URL='https://ucm-cdl.vercel.app/';
   function pill(label,attr,val){var b=el('button','mbtn',esc(label));b.type='button';b.setAttribute(attr,val||'');return b}
   function ov(cls,label,inner){var o=el('div','ov '+cls);o.setAttribute('role','dialog');o.setAttribute('aria-modal','true');o.setAttribute('aria-label',label);o.innerHTML='<div class="in">'+inner+'</div>';document.body.appendChild(o);o.addEventListener('click',function(e){if(e.target.closest('.x'))closeOv(o)});return o}
   function topbar(eb,title){return '<div class="top"><div><p class="eyebrow">'+eb+'</p>'+(title?'<h3 class="ovt">'+title+'</h3>':'')+'</div><button class="x" type="button" aria-label="Close">×</button></div>'}
